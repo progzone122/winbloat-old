@@ -5,9 +5,9 @@
         <img src="icons/winboat_logo.svg" alt="WinBoat Logo" width="150">
       </td>
       <td>
-        <h1 style="color: #7C86FF; margin: 0; font-size: 32px;">WinBoat</h1>
+        <h1 style="color: #7C86FF; margin: 0; font-size: 32px;">WinBloat</h1>
         <p style="color: oklch(90% 0 0); font-size: 14px; margin: 5px 0;">Windows for Penguins.<br>
-        Run Windows apps on 🐧 Linux with ✨ seamless integration</p>
+        Run Windows exploits on 🐧 Linux with ✨ seamless bloat integration</p>
       </td>
     </tr>
   </table>
