@@ -2,7 +2,7 @@
   <table>
     <tr>
       <td>
-        <img src="icons/winboat_logo.svg" alt="WinBloat  Logo" width="150">
+        <img src="icons/winbloat_logo.svg" alt="WinBloat  Logo" width="150">
       </td>
       <td>
         <h1 style="color: #7C86FF; margin: 0; font-size: 32px;">WinBloat</h1>
@@ -40,7 +40,7 @@ WinBloat  is currently in beta, so expect to occasionally run into hiccups and b
 
 ## How Does It Work?
 
-WinBloat  is an Electron app which allows you to run Windows apps on Linux using a containerized approach. Windows runs as a VM inside a Docker container, we communicate with it using the [WinBloat  Guest Server](https://github.com/TibixDev/winboat/tree/main/guest_server) to retrieve data we need from Windows. For compositing applications as native OS-level windows, we use FreeRDP together with Windows's RemoteApp protocol.
+WinBloat  is an Electron app which allows you to run Windows apps on Linux using a containerized approach. Windows runs as a VM inside a Docker container, we communicate with it using the [WinBloat  Guest Server](https://github.com/progzone122/winbloat/tree/main/guest_server) to retrieve data we need from Windows. For compositing applications as native OS-level windows, we use FreeRDP together with Windows's RemoteApp protocol.
 
 ## Prerequisites
 
@@ -65,10 +65,10 @@ Before running WinBloat , ensure your system meets the following requirements:
 
 ## Downloading
 
-You can download the latest Linux builds under the [Releases](https://github.com/TibixDev/winboat/releases) tab. We currently offer four variants:
+You can download the latest Linux builds under the [Releases](https://github.com/progzone122/winbloat/releases) tab. We currently offer four variants:
 
 - **AppImage:** A popular & portable app format which should run fine on most distributions
-- **Unpacked:** The raw unpacked files, simply run the executable (`linux-unpacked/winboat`)
+- **Unpacked:** The raw unpacked files, simply run the executable (`linux-unpacked/winbloat`)
 - **.deb:** The intended format for Debian based distributions
 - **.rpm:** The intended format for Fedora based distributions
 
@@ -82,7 +82,7 @@ You can download the latest Linux builds under the [Releases](https://github.com
 ## Building WinBloat 
 
 - For building you need to have NodeJS and Go installed on your system
-- Clone the repo (`git clone https://github.com/TibixDev/WinBloat `)
+- Clone the repo (`git clone https://github.com/progzone122/WinBloat `)
 - Install the dependencies (`npm i`)
 - Build the app and the guest server using `npm run build:linux-gs`
 - You can now find the built app under `dist` with an AppImage and an Unpacked variant
@@ -91,7 +91,7 @@ You can download the latest Linux builds under the [Releases](https://github.com
 
 - Make sure you meet the [prerequisites](#prerequisites)
 - Additionally, for development you need to have NodeJS and Go installed on your system
-- Clone the repo (`git clone https://github.com/TibixDev/WinBloat `)
+- Clone the repo (`git clone https://github.com/progzone122/WinBloat `)
 - Install the dependencies (`npm i`)
 - Build the guest server (`npm run build-guest-server`)
 - Run the app (`npm run dev`)
@@ -114,7 +114,7 @@ Check out our issues page to get started, or feel free to open a new issue if yo
 
 ## License
 
-WinBloat  is licensed under the [MIT](https://github.com/TibixDev/winboat/blob/main/LICENSE) license
+WinBloat  is licensed under the [MIT](https://github.com/progzone122/winbloat/blob/main/LICENSE) license
 
 ## Inspiration / Alternatives
 
@@ -127,20 +127,20 @@ They're awesome and you should check them out:
 
 ## Socials & Contact
 
-- [![Website](https://img.shields.io/badge/Website-winboat.app-blue?style=flat&logo=googlechrome&logoColor=white)](https://www.winboat.app/)
-- [![Twitter](https://img.shields.io/badge/Twitter-@winboat__app-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/winboat_app)
-- [![Mastodon](https://img.shields.io/badge/Mastodon-@winboat-6364FF?style=flat&logo=mastodon&logoColor=white)](https://fosstodon.org/@winboat)
-- [![Bluesky](https://img.shields.io/badge/Bluesky-winboat.app-00A8E8?style=flat&logo=bluesky&logoColor=white)](http://bsky.app/profile/winboat.app)
+- [![Website](https://img.shields.io/badge/Website-winbloat.app-blue?style=flat&logo=googlechrome&logoColor=white)](https://www.winbloat.app/)
+- [![Twitter](https://img.shields.io/badge/Twitter-@winbloat__app-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/winbloat_app)
+- [![Mastodon](https://img.shields.io/badge/Mastodon-@winbloat-6364FF?style=flat&logo=mastodon&logoColor=white)](https://fosstodon.org/@winbloat)
+- [![Bluesky](https://img.shields.io/badge/Bluesky-winbloat.app-00A8E8?style=flat&logo=bluesky&logoColor=white)](http://bsky.app/profile/winbloat.app)
 - [![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat&logo=discord&logoColor=white)](http://discord.gg/MEwmpWm4tN)
-- [![Email](https://img.shields.io/badge/Email-staff@winboat.app-D14836?style=flat&logo=gmail&logoColor=white)](mailto:staff@winboat.app)
-- [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TibixDev/winboat)
+- [![Email](https://img.shields.io/badge/Email-staff@winbloat.app-D14836?style=flat&logo=gmail&logoColor=white)](mailto:staff@winbloat.app)
+- [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/progzone122/winbloat)
 
 ## Star History
 
-<a href="https://www.star-history.com/#tibixdev/winboat&Date">
+<a href="https://www.star-history.com/#progzone122/winbloat&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tibixdev/winboat&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tibixdev/winboat&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tibixdev/winboat&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=progzone122/winbloat&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=progzone122/winbloat&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=progzone122/winbloat&type=Date" />
  </picture>
 </a>
