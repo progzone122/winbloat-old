@@ -2,7 +2,7 @@
   <table>
     <tr>
       <td>
-        <img src="icons/winbloat_logo.svg" alt="WinBloat  Logo" width="150">
+        <img width="92" height="94" alt="image" src="https://github.com/user-attachments/assets/b18f0ea3-4f5e-40c8-8fdd-8c64b3820590">
       </td>
       <td>
         <h1 style="color: #7C86FF; margin: 0; font-size: 32px;">WinBloat</h1>
